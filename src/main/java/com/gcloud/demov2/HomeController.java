@@ -11,7 +11,7 @@ public class HomeController {
 		return "Welcom demov2 ";
 	}
 
-	@GetMapping("/welcome")
+	@GetMapping("/test")
 	public String getGitMessage() {
 		return "Welcome Git Message";
 	}
