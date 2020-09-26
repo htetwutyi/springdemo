@@ -13,6 +13,6 @@ public class HomeController {
 
 	@GetMapping("/test")
 	public String getGitMessage() {
-		return "Welcome Git Message";
+		return "Welcome Git Message from testing.";
 	}
 }
