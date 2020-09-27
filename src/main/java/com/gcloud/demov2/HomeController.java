@@ -15,4 +15,11 @@ public class HomeController {
 	public String getGitMessage() {
 		return "Welcome Git Message from testing.";
 	}
+	
+	@GetMapping("/jenkins")
+	public String getJenkinsMessage() {
+		return "This is Jenkins and GitHub Combinations Successfully. ";
+	}
 }
+
+
