@@ -18,7 +18,8 @@ public class HomeController {
 	
 	@GetMapping("/jenkins")
 	public String getJenkinsMessage() {
-		return "This is Jenkins and GitHub Combinations Successfully. ";
+		String testing = "Add some line to commit";
+		return "This is Jenkins and GitHub Combinations Successfully." + testing;
 	}
 }
 
